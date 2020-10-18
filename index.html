@@ -5,16 +5,39 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <title>Im dalej w las tym więcej JS</title>
+    <!--    <link rel="stylesheet" href="css/style.css">-->
 </head>
 <body>
 
+<div class="main_box">
+
+    <div class="flipping_card">
+        <div class="question_box">
+            <div class="question_number"></div>
+            <div class="question_content"></div>
+            <code class="question_code"></code>
+            <div class="button_box">
+                <button class="next_question1 btn">Następne pytanie</button>
+                <button class="show_answer btn">Pokaż odpowiedź</button>
+            </div>
+            <div class="tag_list"></div>
+        </div>
+
+        <div class="answer_box">
+            <div class="question_number"></div>
+            <div class="answer_content"></div>
+            <code class="answer_code"></code>
+            <div class="button_box">
+                <button class="next_question2 btn">Następne pytanie</button>
+                <button class="turn_back btn">Wróć do pytania</button>
+            </div>
+            <div class="tag_list"></div>
+        </div>
+    </div>
+</div>
 
 
-
-
-
-
-<script src="js/questionsBase.js"></script>  // w razie czego dodać type="module"
+<script src="js/questionsBase.js"></script>  <!-- w razie czego dodać type="module" -->
 <script src="build/out.js"></script>
 </body>
 </html>
